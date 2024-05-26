@@ -21,6 +21,8 @@ let items = `
 list.insertAdjacentHTML('afterbegin', items);
 list.style.color = 'blue';
 list.style.border = ' 1px solid black';
+list.style.display = "flex";
+list.style.justifyContent = "space-between";
 //5
 let tableLab = document.querySelector('.tableLab');
 let tableF =

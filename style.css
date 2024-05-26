@@ -8,5 +8,7 @@ ul.list{
     list-style: none;
 }
 .table-lab{
-    border:  2px solid blue;
+    border:  2px solid black;
+    color : blue;
 }
+
