@@ -27,7 +27,7 @@ list.style.justifyContent = "space-between";
 let tableLab = document.querySelector('.tableLab');
 let tableF =
     `
-    <table class="table-lab" border="2">
+    <table class="table-lab" border="2px solid ">
     <tr>
       <td>name</td>
       <td>age</td>
@@ -44,4 +44,15 @@ tableLab.insertAdjacentHTML('afterbegin', tableF);
 
 
 //lab2
-let cube = document.getElementsByClassName("cube");
+let margin = 0;
+let cube = document.querySelector(".cube");
+let moveCube = setInterval(move, 1000);
+
+function move() {
+    let randomLeft = Math.random() * 90; 
+    let randomTop = Math.random() * 90;  
+    
+    cube.style.marginLeft = randomLeft + "vw";
+    cube.style.marginTop = randomTop + "vh";  
+}
+move();
