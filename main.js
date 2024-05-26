@@ -42,7 +42,6 @@ let tableF =
   `;
 tableLab.insertAdjacentHTML('afterbegin', tableF);
 
-
 //lab2
 let margin = 0;
 let cube = document.querySelector(".cube");
@@ -51,8 +50,11 @@ let moveCube = setInterval(move, 1000);
 function move() {
     let randomLeft = Math.random() * 90; 
     let randomTop = Math.random() * 90;  
-    
     cube.style.marginLeft = randomLeft + "vw";
     cube.style.marginTop = randomTop + "vh";  
+    // let colors = Math.random () * 16;
+    cube.style.backgroundColor ="rgb(1" + Math.floor(Math.random()*100) + ',1' +Math.floor(Math.random()*100) + ",1" + Math.floor(Math.random()*100)+ ")" ;
+rgb(32,32,34)
 }
 move();
+
