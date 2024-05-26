@@ -18,7 +18,7 @@ let items = `
     <li>Ali</li>
     <li>201910051</li>
 `;
-list.insertAdjacentHTML('beforeend', items);
+list.insertAdjacentHTML('afterbegin', items);
 list.style.color = 'blue';
 list.style.border = ' 1px solid black';
 //5
@@ -38,4 +38,4 @@ let tableF =
     </tr>
   </table>
   `;
-tableLab.insertAdjacentHTML('beforeend', tableF);
+tableLab.insertAdjacentHTML('afterbegin', tableF);
