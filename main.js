@@ -27,7 +27,7 @@ list.style.justifyContent = "space-between";
 let tableLab = document.querySelector('.tableLab');
 let tableF =
     `
-    <table class="table-lab">
+    <table class="table-lab" border="2">
     <tr>
       <td>name</td>
       <td>age</td>
@@ -41,3 +41,7 @@ let tableF =
   </table>
   `;
 tableLab.insertAdjacentHTML('afterbegin', tableF);
+
+
+//lab2
+let cube = document.getElementsByClassName("cube");
