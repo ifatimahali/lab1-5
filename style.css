@@ -1,13 +1,12 @@
-.myID{
-    font-weight: bold;
-}
-.pStyle{
-    color: white;
-    font-size: 2rem;
-    background-color: blue;
-}
 
+.pStyle{
+    font-weight: bold;
+   
+}
 ul.list{
 
     list-style: none;
+}
+.table-lab{
+    border:  2px solid blue;
 }
