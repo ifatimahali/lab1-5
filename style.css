@@ -1,0 +1,13 @@
+.myID{
+    font-weight: bold;
+}
+.pStyle{
+    color: white;
+    font-size: 2rem;
+    background-color: blue;
+}
+
+ul.list{
+
+    list-style: none;
+}
